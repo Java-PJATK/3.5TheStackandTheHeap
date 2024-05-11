@@ -2,7 +2,9 @@
 
 Let us briefly explain what the stack and the heap are.
 
-Both are parts of memory that are available to the program at runtime. The stack is simpler: when a new value (e.g., of a variable) is to be added, it is always added at the “top” of the stack. 
+Both are parts of memory that are available to the program at runtime. 
+
+The stack is simpler: when a new value (e.g., of a variable) is to be added, it is always added at the “top” of the stack. 
 
 The address of the current “top” of the stack is always available at runtime: actually, there is a special register of the processor dedicated only to store information on the current location of the top of the stack. In particular, no “looking for enough room in memory” is involved.
 
