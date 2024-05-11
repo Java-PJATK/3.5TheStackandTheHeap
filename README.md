@@ -17,3 +17,5 @@ The heap is a region of memory that is _not_ managed automatically. When the pro
 Note that if the value of this variable is lost, for example, because it was a local variable in a block, the data on the heap it referred to is no longer available, as we have lost its address! In Java, such unavailable object on the heap may be eventually freed automatically by the process of the so called _garbage collector_.
 
 Unlike the stack, variables created on the heap are accessible not only locally, but wherever their address is known. Heap memory is slower to be read from and written to, because one has to use pointers (which contain addresses) and follow them to access memory on the heap. Also, the process of allocating memory on the heap is rather complicated and time consuming.
+
+[Contents](https://github.com/Java-PJATK/00.Contents)
